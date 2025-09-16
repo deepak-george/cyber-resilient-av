@@ -1,30 +1,41 @@
-# 🚀 Endpoint Detection System (EDS) for Cyber-Resilient Autonomous Vehicles
+<div align="center">
+
+# 🚀 Endpoint Detection System (EDS)  
+### for Cyber-Resilient Autonomous Vehicles  
 
 [![License: CC BY-NC-ND 4.0](https://img.shields.io/badge/License-CC%20BY--NC--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-nd/4.0/)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![Made with ❤️ by Deepak George, S. Pavithra, Jeeshu Das](https://img.shields.io/badge/Made%20with-%E2%9D%A4%EF%B8%8F-orange.svg)](https://github.com/yourusername/eds-av)
 
-Welcome to the official implementation of the **Endpoint Detection System (EDS)** from our research paper:
-**"Cyber-Resilient Autonomous Vehicles: Securing Networks and Enhancing Decision-Making with Next-Gen Security Measures"**
-*Published in Results in Engineering (2025), DOI: [10.1016/j.rineng.2025.107179](https://doi.org/10.1016/j.rineng.2025.107179)*
-
-This repository provides a complete, end-to-end Python script that replicates the core components of our research. It includes a synthetic dataset generator that mimics the **CICEV2023 DDoS Attack Dataset**, a multi-model machine learning framework for attack detection, and functions to generate the exact visualization styles featured in our paper.
+</div>
 
 ---
 
-## 🌟 Key Highlights
+<div align="center">
 
-- **Synthetic Dataset Generation**: 15,000+ realistic samples mimicking the CICEV2023 DDoS Attack Dataset, with attack-specific perturbations for **Benign, Botnet, DDoS, DoS, and Infiltration** traffic.
-- **Multi-Model Training**: Compares **Random Forest, SVM, Neural Networks, and Gradient Boosting** for robust intrusion detection.
-- **Real-Time Analysis**: Features behavioral baselines, ML-based zero-day detection, and hardware-inspired safeguards (e.g., TPM/HSM emulation).
-- **Paper-Exact Visuals**: Replicates **Figures 6–8 and Table 1** for seamless integration into your research.
-- **Ethical & Open**: Open access under **CC BY-NC-ND 4.0**—collaborate responsibly!
+### 📄 Official Implementation of our Research Paper  
+**"Cyber-Resilient Autonomous Vehicles: Securing Networks and Enhancing Decision-Making with Next-Gen Security Measures"**  
+*Published in Results in Engineering (2025)*  
+📌 DOI: [10.1016/j.rineng.2025.107179](https://doi.org/10.1016/j.rineng.2025.107179)
+
+</div>
 
 ---
+
+## ✨ About this Repository  
+
+This repository provides a **complete end-to-end Python framework** implementing the **Endpoint Detection System (EDS)** proposed in our paper.  
+
+🔹 **Synthetic Dataset Generator** – mimics the **CICEV2023 DDoS Attack Dataset**  
+🔹 **Multi-Model Machine Learning Framework** – for real-time attack detection  
+🔹 **Custom Visualization Functions** – replicating the figures and styles from our publication  
+
+---
+
 
 ## 📊 Project Flow Diagram
 
-A high-level overview of the EDS pipeline (inspired by Figure 1 in our paper):
+A high-level overview of the EDS pipeline:
 
 ```mermaid
 graph TD
